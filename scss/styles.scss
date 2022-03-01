@@ -459,6 +459,36 @@ footer {
     }
 }
 
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+    margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+    margin-left: 10px;
+}
+
+.skill-mf span {
+    color: #4e4e4e;
+}
+
+.skill-mf .progress {
+    background-color: #cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+    height: .7rem;
+    background-color: #0078ff;
+}
+  
+
 /*
     --------------------------------
     ----- 6. Experience Styles -----
@@ -977,6 +1007,11 @@ footer {
     .social {
         text-align: center;
     }
+    
+    .about-mf .box-pl2 {
+        margin-top: 3rem;
+        padding-left: 0rem;
+    }
 
 }
 
@@ -999,3 +1034,84 @@ footer {
     }
 
 }
+
+/*--/ Sections /--*/
+
+.sect-4 {
+    padding: 4rem 0;
+}
+
+.sect-pt4 {
+    padding-top: 4rem;
+}
+
+.sect-mt4 {
+    margin-top: 4rem;
+}
+ 
+/*--/ Title s /--*/
+
+.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+  
+  /*--/ Title A /--*/
+  
+.title-box {
+    margin-bottom: 4rem;
+}
+  
+.title-a {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+.subtitle-a {
+    color: #4e4e4e;
+}
+  
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #48abec;
+    margin: 0 auto;
+}
+  
+  /*--/ Title Left /--*/
+  
+.title-box-2 {
+    margin-bottom: 3rem;
+}
+  
+.title-left {
+    font-size: 2rem;
+    position: relative;
+}
+  
+.title-left:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #48abec;
+    width: 100px;
+    bottom: -12px;
+}
+  
+  /*------/ Box /------*/
+  
+.box-pl2 {
+    padding-left: 2rem;
+}
+  
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+  

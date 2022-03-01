@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Gyuyoung's Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -37,20 +38,20 @@
                 <a href="#projects">Projects</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Awards</a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#contact">Contact</a>
-            </li>
+            </li> -->
         </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Gyuyoung Eom</h1>
+            <h2>Full Stack Developer</h2>
+            <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
         </div>
         <!-- End #lead-content -->
 
@@ -66,47 +67,81 @@
     <!-- End #lead -->
 
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+        <section id="about" class="about-mf sect-pt4 route">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="box-shadow-full">
+                    <div class="row" style="padding-left: 10px; padding-right: 10px;">
+                      <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-5">
+                            <div class="about-img">
+                              <img src="images/me.gif" class="img-fluid rounded b-shadow-a" alt="">
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-7" style="vertical-align: middle;">
+                            <div class="about-info" style="width: 100%;">
+                              <p><span class="title-s">Name: </span> <span>엄규영</span></p>
+                              <p><span class="title-s">Email: </span> <span> gyuyoung1220@gmail.com</span></p>
+                              <p><span class="title-s">Phone: </span> <span>(+82) 010-9259-9379</span></p>
+                              <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="skills" class="skill-mf">
+                            <p class="title-s">Skills</p>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Java</li>
+                                <li>Oracle</li>
+                                <li>VueJS</li>
+                                <li>Git</li>
+                            </ul>                          
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="about-me pt-4 pt-md-0">
+                            <div class="title-box-2">
+                                <h5 class="title-left title-s">
+                                    About me
+                                </h5>
+                            </div>
+                            <span class="lead" style="font-size: 1.05em;">
+                                책임감이 강한 주니어 개발자, 엄규영입니다😊<br>
+                                맡은 업무나 정해놓은 목표에 있어, 어떠한 상황이 오더라도 제 자신이 만족할 만한 수준으로 꾸준히 실행하여 좋은 성과를 내는 것을 목표로 합니다.
+                                강한 인내심으로 지속적으로 노력하며 목표를 가지고 항상 노력하는 개발자입니다!😁
+                            </span>
+                            <br>
+                            <br>
+                            <span class="lead" style="font-size: 1.07em;">
+                                #Strong-responsibility #Problem-solver #Strong-patience
+                                <br>
+                                #Self-motivated #Team-player
+                            </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
-                </div>
+              </div>
             </div>
-        </div>
+          </section>        
     </div>
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="January 2021 – Now">
+                <h3>내담씨앤씨</h3>
+                <h4>하이테크사업부 / 사원</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    - DS GEHS 온실가스 통합정보 개발(삼성전자 DS부문)<br>
+                    - DS IT 과제관리 개발(삼성전자 DS부문)<br>
+                    - 메모리 Program 관리 개발(삼성전자 메모리 사업부)<br>
                 </p>
             </div>
         </div>
@@ -116,30 +151,27 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>멀티캠퍼스</h3>
+            <span class="education-date">Nov. 2019 - Jul. 2020</span>
+            <h4>Open API를 활용한 데이터 전처리ㆍ시각화 교육</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                - Web Client 프로그래밍 기술 ( HTML5, CSS3, JavaScript, Ajax ) 학습
+            </p>
+            <p>
+                - Web Server 기술 ( Servlet, Spring, MyBatis ) 학습
+            </p>
+            <p>
+                - OpenAPI 활용 및 D3.js로 정보시각화 구현
             </p>
         </div>
         <!-- End .education-block -->
-
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>경기대학교</h3>
+            <span class="education-date">Mar. 2014 - Feb. 2019</span>
+            <h4>산업경영공학</h4>
+            <p>
+                - 공학 컴퓨터 프로그래밍, 산업자료관리, 시스템 분석 및 설계 등 프로그래밍 관련 수업 수강
+            </p>
         </div>
         <!-- End .education-block -->
     </div>
@@ -151,15 +183,15 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/samsung.png" height="300" width="300" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>DS GEHS 온실가스 통합정보 </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            진행중
                         </p>
-                        <a href="#">View Project</a>
+                        <!-- <a href="#">View Project</a> -->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -167,15 +199,32 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/samsung.png" height="300" width="300" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>DS IT 과제관리 개발</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            DS부문에서 과제, 투자, 운영 등 프로젝트에 필요한 부분을 관리하는 시스템 구축
                         </p>
-                        <a href="#">View Project</a>
+                        <!-- <a href="#myModal" data-toggle="modal">View Project</a> -->
+                        <a href="javascript:openModal('project');">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/samsung.png" height="300" width="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>메모리 Program 관리</h3>
+                        <p>
+                            삼성전자 메모리 사업부의 Program을 한 눈에 관리할 수 있는 시스템 구축
+                        </p>
+                        <a href="javascript:openModal('memory');">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -184,41 +233,28 @@
         </div>
     </div>
     <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
+    <div id="skills" style="text-align: center;">
+        <h2 class="heading">Awards</h2>
+        <div class="education-block">
+            <h3>우수상</h3>
+            <span class="education-date">Jul. 2020</span>
+            <h4>멀티캠퍼스 해커톤</h4>
+            <p>
+                - 결식아동에게 선한영향력을 펼치는 기업들을 일반인에게 알리는 서비스
+            </p>
+        </div>
+        <div class="education-block">
+            <h3>우수상</h3>
+            <span class="education-date">May. 2020</span>
+            <h4>멀티캠퍼스 아이디어톤</h4>
+            <p>
+                - 결식아동들이 사용하는 꿈나무카드의 사용 가능 지점을 안내하는 서비스
+            </p>
+        </div>
     </div>
-    <!-- End #skills -->
+    <!-- End #Awards -->
 
-    <div id="contact">
+    <!-- <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
@@ -227,9 +263,9 @@
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>
-        </div>
+        </div> -->
         <!-- End #contact-form -->
-    </div>
+    <!-- </div> -->
     <!-- End #contact -->
 
     <footer>
@@ -237,7 +273,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2022</span> Gyuyoung Eom
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,32 +284,169 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/GyuyoungEom" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
     <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Memory Modal -->
+    <div id="memory" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title title-s" style="padding-left: 10px;">메모리 Program 관리</h5>
+                    <button class="btn btn-light" type="button" class="close" aria-label="Close" onclick="closeModal('memory');">
+                        <span style="font-size: 1.02em;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped" style="width: 98%; margin-left: 10px; margin-right: 10px;">
+                        <!-- <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead> -->
+                        <tbody>
+                            <tr>
+                                <th scope="row">시스템명</th>
+                                <td colspan="2">Smart D&E</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">프로젝트 기한</th>
+                                <td colspan="2">2021.02.01 ~ 2021.05.15</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">프로젝트 정의</th>
+                                <td colspan="2">삼성전자 메모리 사업부의 Program을 한 눈에 관리할 수 있는 시스템 구축</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">프로젝트 목표</th>
+                                <td colspan="2">Program의 일정을 시각화하고, milestone을 보여주며 관리를 용이하게 함</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="4" class="align-middle">프로젝트 사용 Skill</th>
+                                <td class="table-cell">Back-end</td>
+                                <td>Java</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell">Front-end</td>
+                                <td>Jsp</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell">Server</td>
+                                <td>Tomcat 9.0</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell">DB</td>
+                                <td>Oracle</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="3" class="align-middle">담당 업무</th>
+                                <td colspan="2"> - 프로그램 관련 상세정보 Read</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"> - GoJS를 활용한 다이어그램 작성</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"> - Front CSS 작성</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('memory');" style="font-size: 1.02em;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project Modal -->
+    <div id="project" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title title-s" style="padding-left: 10px;">DS IT 과제관리</h5>
+                    <button class="btn btn-light" type="button" class="close" aria-label="Close" onclick="closeModal('project');">
+                        <span style="font-size: 1.02em;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped" style="width: 98%; margin-left: 10px; margin-right: 10px;">
+                        <tbody>
+                            <tr>
+                                <th scope="row">시스템명</th>
+                                <td colspan="2">System Workplace</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">프로젝트 기한</th>
+                                <td colspan="2">2021.06.15 ~ 2021.12.31</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">프로젝트 정의</th>
+                                <td colspan="2">DS부문에서 과제, 투자, 운영 등 프로젝트 관리에 필요한 부분을 관리하는 시스템 구축</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">프로젝트 목표</th>
+                                <td colspan="2">기존에 사용하던 메뉴를 사용 부서에 맞게 customize하여 사용자의 편의성을 높임</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="4" class="align-middle">프로젝트 사용 Skill</th>
+                                <td class="table-cell">Back-end</td>
+                                <td>Java</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell">Front-end</td>
+                                <td>VueJS</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell">Server</td>
+                                <td>Tomcat 9.0</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell">DB</td>
+                                <td>Oracle</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="3" class="align-middle">담당 업무</th>
+                                <td colspan="2"> - VOC 메일 템플릿 변경</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"> - 조건에 따른 SPA적용</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"> - 적용관리 스케줄 알림메일 발송</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('project');" style="font-size: 1.02em;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="js/scripts.min.js"></script>
+    <script>
+        function openModal(name) {
+            $('#' + name).modal('show');
+        }
+        function closeModal(name) {
+            $('#' + name).modal('hide');
+        }
+    </script>
 </body>
 
 </html>
